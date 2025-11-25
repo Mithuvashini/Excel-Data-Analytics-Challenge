@@ -1,159 +1,168 @@
-# 🚀 My AI-Driven Data Analytics – 7 Day Excel Challenge
-
-Hi there 👋  
-This is my **AI-Driven Data Analytics 7-Day Challenge**, where I practiced key Excel and data analytics skills step-by-step.  
-The goal was to clean, analyze, and understand data like a true analyst — using Excel as my main tool before moving into AI-driven analytics.
+# 📊 My AI-Driven Data Analytics – 21 Day Excel Challenge
+A complete 3-week hands-on journey into Excel, Data Cleaning, Analysis, Visualisation, Power Query, and Dashboard Creation — supported with AI tools like Excel Copilot.
 
 ---
 
-## 📅 Challenge Summary
+## 🚀 Project Overview
+This repository documents my 21-day learning challenge designed to build strong foundations in **Excel-based data analytics**, including:
 
-| Day | Focus Area | My Key Learning |
-|-----|-------------|----------------|
-| 1 | Dataset Selection & Import | Data exploration & structure understanding |
-| 2 | Data Entry & Formatting | Clean layout and organized dataset |
-| 3 | Basic Excel Formulas (Part 1) | Summaries using SUM, AVERAGE, MIN, MAX, COUNT |
-| 4 | Basic Excel Formulas (Part 2) | Conditional logic with IF, SUMIF, COUNTIF |
-| 5 | Text Functions Practice | Cleaned and formatted messy text data |
-| 6 | Data Validation & Cleaning | Removed duplicates, handled missing data |
-| 7 | Power Query (Optional) | Automated cleaning & transformation process |
+- Data cleaning  
+- Transformations  
+- Lookups  
+- Descriptive statistics  
+- Pivot tables  
+- Charts & dashboards  
+- AI-powered insights  
 
----
-
-## 🗓️ **Day 1 – Dataset Selection & Import**
-
-**Goal:** Explore and understand a raw dataset before analysis.
-
-I started by importing my dataset into Excel and exploring:
-- Row and column count  
-- Data types (numeric, text, date)
-- Missing or inconsistent values  
-
-### 🧩 Dataset Options I Considered
-1. [Superstore Sales Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)  
-2. [Netflix Titles Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)  
-3. [Airbnb Listings Dataset](https://www.kaggle.com/datasets/PromptCloudHQ/airbnb-property-data)  
-4. [Iris Flower Dataset](https://www.kaggle.com/datasets/uciml/iris)  
-5. [Amazon Sales Dataset](https://www.kaggle.com/datasets/lokeshparab/amazon-sales-dataset)
-
-**My Observations:**
-- Identified key variables like *Sales, Profit, and Category*  
-- Detected a few missing cells in the “Discount” column  
-- Found 10+ columns suitable for numeric analysis  
+The repo contains the Excel workbook, dashboard, and documentation of the entire workflow.
 
 ---
 
-## 🧾 **Day 2 – Data Entry & Formatting**
+# 🗓️ WEEK 1 – Excel Foundations & Data Familiarity
+**Focus: Excel interface, formulas, and basic data understanding**
 
-**Goal:** Make the dataset professional and easy to read.
+### **Day 1 – Dataset Selection & Import**
+- Choose dataset(s)  
+- Import into Excel  
+- Explore rows, columns, data types, and missing values  
+- **Task:** Note 3–4 key observations  
 
-I practiced:
-- Editing, inserting, and deleting rows/columns  
-- Formatting headers (bold, color-coded, aligned center)  
-- Freezing top rows for better navigation  
-- Adjusting column widths for clarity  
+### **Day 2 – Data Entry & Formatting**
+- Edit rows/columns  
+- Format headers (bold, colors, alignment)  
+- **Task:** Make dataset clean & readable  
 
-✅ My sheet now looks cleaner and ready for analysis.
+### **Day 3 – Basic Excel Formulas (Part 1)**
+- SUM, AVERAGE, MIN, MAX, COUNT  
+- **Task:** Create a summary table  
 
----
+### **Day 4 – Basic Excel Formulas (Part 2)**
+- IF, SUMIF, COUNTIF, AVERAGEIF  
+- **Task:** Write at least 3 condition-based calculations  
 
-## ➕ **Day 3 – Basic Excel Formulas (Part 1)**
+### **Day 5 – Text Functions**
+- LEFT, RIGHT, MID, PROPER, UPPER, LOWER  
+- **Task:** Clean text fields  
 
-**Goal:** Learn to summarize data with core Excel formulas.
+### **Day 6 – Data Validation & Cleaning**
+- Drop-down lists  
+- Remove duplicates  
+- Handle blank cells  
+- **Task:** Ensure dataset has no duplicates or missing values  
 
-I used:
-- `=SUM(range)`  
-- `=AVERAGE(range)`  
-- `=MIN(range)`  
-- `=MAX(range)`  
-- `=COUNT(range)`  
-
-I built a **summary table** that shows:
-- Total and average sales  
-- Minimum and maximum profit values  
-- Count of transactions  
-
----
-
-## ⚙️ **Day 4 – Basic Excel Formulas (Part 2)**
-
-**Goal:** Add logic to my data using conditional formulas.
-
-I practiced:
-- `=IF()` for conditional checks  
-- `=SUMIF()`, `=COUNTIF()`, and `=AVERAGEIF()` for grouped insights  
-
-**Example Conditions I Created:**
-- Count of orders with sales above ₹10,000  
-- Average profit for the “Technology” category  
-- Total sales made in the “East” region  
+### **Day 7 – Intro to Power Query**
+- Load → Clean → Reload  
+- **Task:** Remove nulls, duplicates, inconsistencies  
 
 ---
 
-## 🔤 **Day 5 – Text Functions Practice**
+# 🗓️ WEEK 2 – Data Cleaning, Exploration & Analysis
+**Focus: Transformations, descriptive statistics, patterns**
 
-**Goal:** Clean and format text data for consistency.
+### **Day 8 – Fixing Inconsistent Data**
+- Text-to-Columns  
+- Flash Fill  
+- TRIM()  
+- **Task:** Split messy data into clean columns  
 
-I used:
-- `=LEFT()`, `=RIGHT()`, `=MID()`  
-- `=UPPER()`, `=LOWER()`, `=PROPER()`  
+### **Day 9 – Conditional Formatting**
+- Highlight missing values, duplicates, outliers  
+- **Task:** Create color rules for data issues  
 
-**Tasks Done:**
-- Standardized city names and customer names  
-- Converted all text into proper case  
-- Extracted specific substrings like product codes  
+### **Day 10 – Descriptive Statistics**
+- Mean, Median, Mode, Standard Deviation  
+- Using Analysis ToolPak  
+- **Task:** Generate summary statistics  
 
----
+### **Day 11 – Sorting & Filtering**
+- Apply filters  
+- Sort by multiple levels  
+- **Task:** Find top 5 and bottom 5 values + write mini report  
 
-## 🧹 **Day 6 – Data Validation & Cleaning**
+### **Day 12 – Date & Time Functions**
+- TODAY(), NOW(), YEAR(), MONTH(), WEEKDAY(), DATEDIF()  
+- **Task:** Calculate duration/age  
 
-**Goal:** Ensure my dataset is accurate and free of errors.
+### **Day 13 – Lookup Functions (Part 1)**
+- VLOOKUP  
+- **Task:** Recreate data using lookups  
 
-**Steps I took:**
-- Added dropdown lists for categories using Data Validation  
-- Removed duplicates with Excel’s built-in feature  
-- Handled blank cells using:  
-  `=IF(cell="", "Unknown", cell)`  
-- Checked for consistency in category names  
-
-✅ Result: A clean, consistent dataset ready for Power Query.
-
----
-
-## ⚡ **Day 7 – Power Query Introduction (Optional)**
-
-**Goal:** Automate cleaning and transformations.
-
-Using **Power Query**, I:
-- Loaded my dataset (`Data → Get & Transform`)  
-- Removed nulls and duplicates  
-- Replaced inconsistent entries (e.g., “East” vs “EAST”)  
-- Re-loaded the cleaned data back into Excel  
-
-Now my workflow is repeatable and automation-ready.
+### **Day 14 – Lookup (Part 2)**
+- INDEX + MATCH  
+- **Task:** Fill missing values using data from another table  
 
 ---
 
-## 🏁 **Final Outcome**
+# 🗓️ WEEK 3 – Visualization & Dashboard Building
+**Focus: PivotTables, charts, dashboard, storytelling**
 
-At the end of this 7-day challenge, I achieved:
-- A **fully cleaned, formatted dataset**
-- A **summary table** with clear business insights
-- Hands-on experience with **Excel formulas, text cleaning, and Power Query**
-- Confidence to move into **AI-driven analytics tools** like Power BI and Python
+### **Day 15 – PivotTables (Part 1)**
+- Connect tables  
+- Simple PivotTables  
+- **Task:** Show total sales by region or average marks by category  
+
+### **Day 16 – PivotTables (Part 2)**
+- Grouping fields  
+- Forecasting  
+- Write descriptions of:
+  - Descriptive analysis  
+  - Diagnostic analysis  
+  - Predictive analysis  
+  - Prescriptive analysis  
+- **Task:** Build PivotChart  
+
+### **Day 17 – Charts (Part 1)**
+- Bar, Column, Pie, Line charts  
+- **Task:** Visualize KPIs  
+
+### **Day 18 – Charts (Part 2)**
+- Combo charts  
+- Sparklines  
+- Slicers  
+- **Task:** Add interactivity  
+
+### **Day 19 – Storytelling With Data**
+- Titles  
+- Legends  
+- Color themes  
+- Chart alignment  
+- **Task:** Presentation-ready visuals  
+
+### **Day 20 – Dashboard & AI Integration**
+- Use Quick Analysis  
+- Use Excel Copilot / AI Analyst  
+- **Task:** Build a one-page dashboard  
+
+### **Day 21 – Documentation & Submission**
+Prepare:
+- Dataset used  
+- Cleaning steps  
+- Formulas used  
+- Insights  
+- Screenshot of dashboard  
+
+**Task:** Export and submit Excel workbook, dashboard PDF, and documentation.
 
 ---
 
-## 💡 What’s Next?
+# 📦 FINAL DELIVERABLES
 
-I’ll continue this journey with:
-- **Power BI Dashboard Challenge**
-- **Python Data Analysis (Pandas + Matplotlib)**
-- **Machine Learning Mini Projects**
+### ✔️ Excel Workbook (.xlsx)
+- Cleaned datasets  
+- All formulas  
+- PivotTables & charts  
+- Final dashboard  
 
 ---
 
-**👤 Created by:** [Mithuvashini](https://github.com/Mithuvashini)  
-**🧠 Focus:** Excel for AI-Driven Data Analytics  
-**📅 Duration:** 7 Days  
-**🏆 Goal:** Build a strong foundation in cleaning, analyzing, and visualizing data.
+# 🧰 Tools Used
+- Microsoft Excel (2024)  
+- Power Query  
+- Excel Analysis ToolPak  
+- Excel Elkar / AI Analyst  
+
+---
+
+# 🙌 Author
+Created by **Mithuvashini** — AI-Driven Excel & Data Analytics Learner.
+
